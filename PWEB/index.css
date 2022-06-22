@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header{
+    width: 100%;
+    background-color:yellowgreen;
+    overflow: hidden;
+    height: 110px;
+    background: linear-gradient(blue, green);
+}
+
+.header .logo {
+    font-size: 20px;
+    float: left;
+    color: whitesmoke;
+    margin-top: 5px;
+}
+
+.header .link{
+    float: right;
+    margin-top: 5px;
+}
+
+.header .link li{
+    display:block;
+    float: right;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.header .link li a{
+    color: whitesmoke;
+    float: right;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.header .link li a:hover{
+    color: brown;   
+    text-decoration: underline;
+}
+
+.bulat .icon-class{
+    margin: auto;
+}
+
+.icon-class li{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.bulat {
+    margin-top: 100px;
+}
+
+.bulat .icon-class .icon1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('../image/ruangkomputer2.jpg');
+    background-size: cover;
+    margin-right: 40px;
+}
+
+.bulat .icon-class .icon2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('../image/komputer.jpg');
+    background-size: cover;
+}
+
+.bulat .icon-class .icon3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('../image/ruangkomputer.jpg');
+    background-size: cover;
+    margin-left: 40px;
+}
+
+.bulat .icon-class li{
+    display: block;
+    float: right;
+    margin-right: 100px;
+}
